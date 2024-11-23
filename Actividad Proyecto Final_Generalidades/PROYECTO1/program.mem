@@ -1,0 +1,5 @@
+2000000a  // ADDI $t0, $zero, 10
+00000020  // ADD $t1, $zero, $zero
+00080020  // ADD $t1, $t1, $t0 (LOOP)
+2000ffff  // ADDI $t0, $t0, -1
+1400fffd  // BNE $t0, $zero, LOOP

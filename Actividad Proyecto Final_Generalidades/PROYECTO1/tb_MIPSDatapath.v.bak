@@ -1,0 +1,44 @@
+module tb_MIPSDatapath();
+    reg clk, reset;
+    wire [31:0] instruction;  // Instrucción entregada por la memoria
+    wire [31:0] result;       // Resultado final del datapath
+
+    // Instanciar el datapath
+    MIPSDatapath DUT (
+        .clk(clk),
+        .reset(reset),
+        .instruction(instruction),
+        .result(result)
+    );
+
+    // Instanciar la memoria de instrucciones
+    InstructionMemory IM (
+        .address(DUT.PC),          // El PC del datapath controla la dirección
+        .instruction(instruction) // Instrucción entregada al datapath
+    );
+
+    // Generar el reloj
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // Período de 10 unidades de tiempo
+    end
+
+    // Simulación
+    initial begin
+        // Inicializar señales
+        reset = 1;
+
+        // Soltar el reset
+        #10 reset = 0;
+
+        // Esperar que el programa se ejecute completamente
+        #200;  // Aumenté el tiempo de espera a 200 unidades de tiempo
+
+        // Monitorear $t1 en cada ciclo
+        $display("Resultado esperado en $t1: 55");
+        $display("Resultado obtenido: %d", DUT.RF.registers[9]); // Verifica el valor de $t1
+
+        // Finalizar simulación
+        $finish;
+    end
+endmodule

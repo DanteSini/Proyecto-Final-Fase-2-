@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/StarB/OneDrive/Escritorio/db/Act 8
+vALU
+Z0 !s110 1732228761
+!i10b 1
+!s100 o7fjhndaeooQDa;:BfcS03
+If6io;ifjcN=L7Q3gc?gQ_0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1
+w1731790481
+8C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/ALU.v
+FC:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1732228761.000000
+!s107 C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vControlUnit
+R0
+!i10b 1
+!s100 L09SGfh72zBbi@5nA=0[d0
+I4U4C9EZd2fzmUXG;mliGk3
+R1
+R2
+w1732228473
+8C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/control_unit.v
+FC:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/control_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/control_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/control_unit.v|
+!i113 1
+R5
+R6
+n@control@unit
+vDataMemory
+R0
+!i10b 1
+!s100 V@ZBBEU2RIHUc25Wmm@Cj0
+IQILlhBmOkCo@E9=N5NRkK0
+R1
+R2
+w1732161780
+8C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/DataMemory.v
+FC:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/DataMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/DataMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/DataMemory.v|
+!i113 1
+R5
+R6
+n@data@memory
+vInstructionMemory
+R0
+!i10b 1
+!s100 [`FmoeZ`bJJ<C_YY2J6A40
+Ic:LI9;AdDM^2I4EMZgU[33
+R1
+R2
+w1732228497
+8C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/instruction_memory.v
+FC:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/instruction_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/instruction_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/instruction_memory.v|
+!i113 1
+R5
+R6
+n@instruction@memory
+vMIPSDatapath
+!s110 1732226969
+!i10b 1
+!s100 OnDoDm9TX>K57@C_[5W=l0
+IWeR<GEd__BDZBf1OA50lD0
+R1
+R2
+w1732226907
+8C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/mips_datapath.v
+FC:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/mips_datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1732226968.000000
+!s107 C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/mips_datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/mips_datapath.v|
+!i113 1
+R5
+R6
+n@m@i@p@s@datapath
+vRegisterFile
+R0
+!i10b 1
+!s100 NmQZAz<65icCZHeIVaUY<0
+IWX_@fi[:84==QTEjc3;Vj3
+R1
+R2
+w1731791841
+8C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/register_file.v
+FC:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/StarB/OneDrive/Escritorio/db/Act 8/PROYECTO1/register_file.v|
+!i113 1
+R5
+R6
+n@register@file
+vtb_MIPSDatapath
+R0
+!i10b 1
+!s100 oLG7MF:45S:?ZbhSD6W?j3
+IAV]`UP[[U^[A@PNL=jAiU0
+R1
+R2
+w1732228755
+8C:\Users\StarB\OneDrive\Escritorio\db\Act 8\PROYECTO1\tb_MIPSDatapath.v
+FC:\Users\StarB\OneDrive\Escritorio\db\Act 8\PROYECTO1\tb_MIPSDatapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\StarB\OneDrive\Escritorio\db\Act 8\PROYECTO1\tb_MIPSDatapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\StarB\OneDrive\Escritorio\db\Act 8\PROYECTO1\tb_MIPSDatapath.v|
+!i113 1
+R5
+R6
+ntb_@m@i@p@s@datapath

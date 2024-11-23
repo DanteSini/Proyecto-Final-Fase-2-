@@ -1,0 +1,50 @@
+{C:/Users/StarB/OneDrive/Escritorio/db/Act 8/P2/ALU.v} {1 {vlog -work work -stats=none {C:\Users\StarB\OneDrive\Escritorio\db\Act 8\P2\ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/StarB/OneDrive/Escritorio/db/Act 8/P2/DatapathTestbench.v} {1 {vlog -work work -stats=none {C:\Users\StarB\OneDrive\Escritorio\db\Act 8\P2\DatapathTestbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DatapathTestbench
+
+Top level modules:
+	DatapathTestbench
+
+} {} {}} {C:/Users/StarB/OneDrive/Escritorio/db/Act 8/P2/InstructionMemory.v} {1 {vlog -work work -stats=none {C:\Users\StarB\OneDrive\Escritorio\db\Act 8\P2\InstructionMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {C:/Users/StarB/OneDrive/Escritorio/db/Act 8/P2/Datapath.v} {1 {vlog -work work -stats=none {C:\Users\StarB\OneDrive\Escritorio\db\Act 8\P2\Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} {C:/Users/StarB/OneDrive/Escritorio/db/Act 8/P2/TestF2_MemInst.v} {1 {vlog -work work -stats=none {C:\Users\StarB\OneDrive\Escritorio\db\Act 8\P2\TestF2_MemInst.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TestF2_MemInst
+
+Top level modules:
+	TestF2_MemInst
+
+} {} {}} {C:/Users/StarB/OneDrive/Escritorio/db/Act 8/P2/ControlUnit.v} {1 {vlog -work work -stats=none {C:\Users\StarB\OneDrive\Escritorio\db\Act 8\P2\ControlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {C:/Users/StarB/OneDrive/Escritorio/db/Act 8/P2/RegisterFile.v} {1 {vlog -work work -stats=none {C:\Users\StarB\OneDrive\Escritorio\db\Act 8\P2\RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}}
